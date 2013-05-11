@@ -30,7 +30,7 @@
 	});
 
     $("#send").on("click", function () {
-        alert("clicked");
+        alert(imagePaths.size());
     });
 
 

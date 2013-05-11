@@ -34,6 +34,10 @@
         return this._points[this._points.length - 1];
     };
 
+    ImagePaths.prototype.getArray = function () {
+        return this._points;
+    }
+
     function distance(x1, y1, x2, y2) {
         return Math.sqrt(Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2));
     }
