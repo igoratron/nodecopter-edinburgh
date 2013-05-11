@@ -1,0 +1,7 @@
+{
+	"name": "nodecopter-edinburgh",
+	"version": "0.0.1",
+	"dependencies": {
+		"ar-drone" : "0.0.5"
+	}
+}
