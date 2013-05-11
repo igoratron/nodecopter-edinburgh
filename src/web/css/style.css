@@ -1,0 +1,30 @@
+canvas {
+	border: 1px solid;
+}
+
+#send {
+	width: 100%;
+	display: block;
+	text-align: center;
+	line-height: 3em;
+	color: white;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-shadow: -1px -1px rgb(40,179,32);
+	font-size: 20px;
+
+	background-image: linear-gradient(bottom, rgb(26,240,58) 100%, rgb(40,179,32) 0%);
+	background-image: -o-linear-gradient(bottom, rgb(26,240,58) 100%, rgb(40,179,32) 0%);
+	background-image: -moz-linear-gradient(bottom, rgb(26,240,58) 100%, rgb(40,179,32) 0%);
+	background-image: -webkit-linear-gradient(bottom, rgb(26,240,58) 100%, rgb(40,179,32) 0%);
+	background-image: -ms-linear-gradient(bottom, rgb(26,240,58) 100%, rgb(40,179,32) 0%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(1, rgb(26,240,58)),
+		color-stop(0, rgb(40,179,32))
+	);
+}
