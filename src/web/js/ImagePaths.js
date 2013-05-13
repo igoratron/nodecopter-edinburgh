@@ -7,7 +7,7 @@
 
     ImagePaths.prototype.addPoint = function (x, y, color, threshold) {
         if (threshold === void 0) {
-            threshold = 10;
+            threshold = 100;
         }
 
         y = Math.abs(y - this._canvasHeight);

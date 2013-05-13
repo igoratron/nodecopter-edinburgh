@@ -3,9 +3,6 @@
 		ctx = canvas[0].getContext("2d"),
         imagePaths = new exports.ImagePaths(canvas[0].width, canvas[0].height);
 
-
-    var coords = [];
-
 	canvas.on("touchstart", function (event) {
 		var touch = event.originalEvent.targetTouches[0];
 
@@ -30,7 +27,9 @@
 	});
 
     $("#send").on("click", function () {
-        alert(imagePaths.size());
+        $.post("/points", {data: imagePaths.getArray()}, function () {
+            alert("done");
+        });
     });
 
 
